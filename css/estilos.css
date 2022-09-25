@@ -1,4 +1,53 @@
+body {
+    font-size: 18px;
+    font-family: 'PwC Helvetica Neue', arial, serif;
+}
+
 .menu-2 {
     color: white;
+
+}
+
+
+.buscar-lup:hover {
+    color: red;
+    transition: background-color .5s;
+}
+
+
+@media (min-width: 1000px) {
+    #logo-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .redes {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navb {
+        margin: 10px !important;
+    }
+
+    #nav-1 {
+        display: none;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    #nav-2 {
+
+        margin-top: -20px;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    #Btn-nav {
+        border: none;
+    }
+
 
 }
